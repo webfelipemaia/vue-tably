@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld/>
+    <tably></tably>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Tably from './components/Tably.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Tably
   }
 }
 </script>
