@@ -1,24 +1,21 @@
-# vue-tably
+# Tably
 
-## Project setup
-```
-npm install
-```
+Dynamic Vue.js component to create tabs for Materialize CSS.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Installation
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Install the Tably package:
 
-### Lints and fixes files
+```bash
+npm install vue-tably
 ```
-npm run lint
+Install Materialize CSS:
+
+```bash
+npm install materialize-css@next
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Usage
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
