@@ -8,10 +8,15 @@
     "email": "webfelipemaia@gmail.com",
     "url": "https://github.com/webfelipemaia/vue-tably"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webfelipemaia/vue-tably"
+  },
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:npm": "vue-cli-service build --target lib --name vue-tably src/index.js && npm run postinstall",
+    "build:npm": "process.env.Node_ENV && vue-cli-service build --target lib --name vue-tably src/index.js",
     "postinstall": "node ./assets.js",
     "lint": "vue-cli-service lint",
     "scss": "node-sass --output-style expanded --indent-type tab --indent-width 1 -o dist/css src/scss",
