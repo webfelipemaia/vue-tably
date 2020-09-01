@@ -34,8 +34,6 @@
 
 <script>
 import M from 'materialize-css/dist/js/materialize.min'
-import 'materialize-css/dist/css/materialize.css'
-import '../../dist/css/vue-tably.css'
 export default {
   name: 'Tably',
   data: function() {
@@ -94,6 +92,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+  @import "../scss/vue-tably.scss";
 </style>
