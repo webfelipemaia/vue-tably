@@ -1,6 +1,6 @@
 {
   "name": "vue-tably",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./dist/js/vue-tably.common.js",
   "description": "Dynamic Vue.js component to create tabs",
   "author": {
