@@ -16,7 +16,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:npm": "process.env.Node_ENV && vue-cli-service build --target lib --name vue-tably src/index.js",
+    "build:npm": "SET Node_ENV=production && vue-cli-service build --target lib --name vue-tably src/index.js",
     "postinstall": "node ./assets.js",
     "lint": "vue-cli-service lint",
     "scss": "node-sass --output-style expanded --indent-type tab --indent-width 1 -o dist/css src/scss",
