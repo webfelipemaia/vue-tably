@@ -6,6 +6,7 @@ const fileToRemove = outputDir + 'demo.html';
 
 const assets = [
     './node_modules/materialize-css/dist/css/materialize.min.css',
+    './assets.js'
 ];
 
 // copy assets to dist
